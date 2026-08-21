@@ -19,6 +19,7 @@ export default function Navbar() {
           <span className="text-accent">.</span>
         </a>
 
+        {/* Desktop links */}
         <ul className="hidden md:flex gap-8 text-sm">
           {links.map((l) => (
             <li key={l.href}>
@@ -38,6 +39,7 @@ export default function Navbar() {
           Resume
         </a>
 
+        {/* Mobile menu button */}
         <button
           className="md:hidden text-slate-200 text-xl"
           onClick={() => setOpen(!open)}
@@ -47,6 +49,7 @@ export default function Navbar() {
         </button>
       </nav>
 
+      {/* Mobile dropdown */}
       {open && (
         <ul className="md:hidden px-6 pb-4 space-y-3 bg-slate-950/95 border-b border-white/5">
           {links.map((l) => (

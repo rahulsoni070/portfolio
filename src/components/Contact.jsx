@@ -12,7 +12,9 @@ export default function Contact() {
         </p>
 
         <a
-          href="mailto:rahulsoni66676@gmail.com"
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=rahulsoni66676@gmail.com&su=Hello%20Rahul"
+          target="_blank"
+          rel="noreferrer"
           className="inline-block mt-8 px-8 py-3 rounded-lg bg-accent text-white font-medium hover:opacity-90 transition"
         >
           Say Hello 👋

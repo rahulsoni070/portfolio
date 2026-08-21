@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 
+// The whole page is just these sections stacked in order.
 export default function App() {
   return (
     <>

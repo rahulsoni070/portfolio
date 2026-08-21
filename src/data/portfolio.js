@@ -20,8 +20,7 @@ export const personal = {
 export const socials = [
   { name: "GitHub", url: "https://github.com/rahulsoni070", icon: FaGithub },
   { name: "LinkedIn", url: "https://linkedin.com/in/rahulsoni0707", icon: FaLinkedin },
-  // TODO: replace with your real X/Twitter profile link
-  { name: "Twitter", url: "https://twitter.com/", icon: FaXTwitter },
+  { name: "Twitter", url: "https://x.com/Rahulso43411291", icon: FaXTwitter },
   { name: "Email", url: "mailto:rahulsoni66676@gmail.com", icon: FaEnvelope },
 ];
 
@@ -61,7 +60,7 @@ export const projects = [
       "REST API for products, categories, cart & orders",
     ],
     tech: ["React", "Node.js", "Express", "MongoDB"],
-    liveUrl: "https://major-project-a32c.vercel.app/",
+    liveUrl: "https://major-project-sigma-snowy.vercel.app/",
     codeUrl: "https://github.com/rahulsoni070/shopeasy-frontend",
   },
 ];

@@ -14,7 +14,7 @@ export default function Projects() {
               key={p.title}
               className="group flex flex-col rounded-2xl border border-white/10 bg-white/[0.03] p-6 hover:border-accent/50 hover:bg-white/[0.05] transition"
             >
-              <div className="flex items-start justify-between gap-3">
+              <div className="flex flex-col gap-1 sm:flex-row sm:items-start sm:justify-between sm:gap-3">
                 <div>
                   <h3 className="text-xl font-bold text-white">{p.title}</h3>
                   <p className="text-sm text-accent">{p.subtitle}</p>
@@ -33,7 +33,7 @@ export default function Projects() {
                 ))}
               </ul>
 
-              <div className="mt-5 flex flex-wrap gap-2">
+              <div className="mt-auto pt-4 flex flex-wrap gap-2">
                 {p.tech.map((t) => (
                   <span
                     key={t}

@@ -1,3 +1,4 @@
+// A small reusable section heading like "01. About Me"
 export default function SectionTitle({ n, title }) {
   return (
     <div className="flex items-center gap-4">

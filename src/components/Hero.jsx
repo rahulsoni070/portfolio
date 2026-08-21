@@ -28,7 +28,7 @@ export default function Hero() {
             rel="noreferrer"
             className="px-6 py-3 rounded-lg border border-white/15 text-slate-200 font-medium hover:border-accent hover:text-accent transition"
           >
-            Download Resume
+            Resume
           </a>
         </div>
 
