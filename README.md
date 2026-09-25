@@ -33,7 +33,7 @@ You rarely need to touch the files in `src/components/`.
 
 ## 📄 Resume
 
-Your resume PDF lives in `public/RahulSoni_Resume.pdf`.
+Your resume PDF lives in `public/Rahul_Soni_Resume.pdf`.
 Replace that file anytime to update the "Resume" button — keep the same name.
 
 ## 📦 Build for production
@@ -56,7 +56,7 @@ This creates a `dist/` folder you can deploy.
 portfolio/
 ├─ public/
 │  ├─ favicon.svg
-│  └─ RahulSoni_Resume.pdf
+│  └─ Rahul_Soni_Resume.pdf
 ├─ src/
 │  ├─ components/     # UI sections (Navbar, Hero, Projects, ...)
 │  ├─ data/
