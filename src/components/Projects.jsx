@@ -22,16 +22,7 @@ export default function Projects() {
                 <span className="text-xs text-slate-500 whitespace-nowrap">{p.period}</span>
               </div>
 
-              <p className="mt-4 text-slate-400">{p.description}</p>
-
-              <ul className="mt-4 space-y-1.5">
-                {p.highlights.map((h, i) => (
-                  <li key={i} className="text-sm text-slate-400 flex gap-2">
-                    <span className="text-accent">▸</span>
-                    {h}
-                  </li>
-                ))}
-              </ul>
+              <p className="mt-4 text-slate-400 leading-relaxed">{p.description}</p>
 
               <div className="mt-5 flex flex-wrap gap-2">
                 {p.tech.map((t) => (

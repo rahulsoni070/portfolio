@@ -29,12 +29,7 @@ export const projects = [
     subtitle: "Photo Management REST API & Cloud Storage",
     period: "Sep 2026",
     description:
-      "A Google Photos-style application with custom albums, image uploads, tags, comments, favorites, and secure owner vs. shared-user access permissions.",
-    highlights: [
-      "16-endpoint REST API with reusable access middleware that prevents IDOR vulnerabilities",
-      "Google OAuth 2.0 (Passport.js) + JWT; Multer → Cloudinary uploads with rollback protection",
-      "Paginated tag search on compound indexes; Helmet, CORS allowlist, and rate limiting",
-    ],
+      "A Google Photos-style media platform featuring secure album creation, Cloudinary image uploads with rollback protection, tag-based search, and owner vs. shared-user permissions.",
     tech: ["Node.js", "Express", "MongoDB", "OAuth 2.0", "Cloudinary", "React"],
     liveUrl: "https://kaviospix-rahul.vercel.app/",
     codeUrl: "https://github.com/rahulsoni070/kaviospix",
@@ -44,12 +39,7 @@ export const projects = [
     subtitle: "Lead Management REST API & Analytics Dashboard",
     period: "Aug 2026",
     description:
-      "A full-featured CRM platform for sales teams to capture leads, assign sales agents, track pipeline stages, and analyze conversion performance.",
-    highlights: [
-      "19 RESTful endpoints secured with JWT middleware & bcrypt, featuring admin-level RBAC",
-      "Advanced server-side filtering, multi-field search, 8 whitelisted sort orders, and pagination",
-      "Visual analytics dashboard powered by MongoDB aggregation pipelines ($group, $lookup) & Recharts",
-    ],
+      "A full-featured sales CRM with 19 REST endpoints and JWT authentication, enabling sales teams to capture leads, assign agents, track status pipelines, and visualize conversion reports with Recharts.",
     tech: ["Node.js", "Express", "MongoDB", "JWT", "React", "Recharts"],
     liveUrl: "https://anvaya-crm-frontend-bice.vercel.app/",
     codeUrl: "https://github.com/rahulsoni070/anvaya-crm",
@@ -59,12 +49,7 @@ export const projects = [
     subtitle: "Real-Time One-to-One Messaging Platform",
     period: "Sep 2026",
     description:
-      "A real-time messaging application featuring private instant messaging, live typing indicators, delivery receipts, and online presence tracking.",
-    highlights: [
-      "Socket.IO architecture with per-user private rooms, heartbeat pinging, and ACK callbacks",
-      "End-to-end receipt pipeline: Sent → Delivered → Read statuses persisted in MongoDB",
-      "Real-time typing indicators and online user presence synchronized across socket channels",
-    ],
+      "A high-performance chat application powered by Socket.IO and MongoDB, supporting private 1-on-1 messaging rooms, live typing indicators, online presence, and sent-delivered-read receipts.",
     tech: ["Node.js", "Express", "Socket.IO", "MongoDB", "React"],
     liveUrl: "https://chat-app-frontend-psi-roan.vercel.app/",
     codeUrl: "https://github.com/rahulsoni070/Chat-app",
@@ -74,12 +59,7 @@ export const projects = [
     subtitle: "Task & Project Management Platform",
     period: "Aug 2026",
     description:
-      "An Asana-inspired collaborative workspace for managing projects, organizing sprint tasks across teams, and tracking team workload velocity.",
-    highlights: [
-      "18-endpoint REST API (16 secured via JWT) architected across 5 relational Mongoose schemas",
-      "Multi-criteria task filtering by team, owner, status, priority, project, and custom tags",
-      "Sprint reporting engine visualizing completed cycles, pending backlogs, and team distribution",
-    ],
+      "An Asana-inspired project management platform with an 18-endpoint REST API and 5 relational Mongoose schemas, featuring multi-filter task workflows, team ownership, and sprint velocity charts.",
     tech: ["Node.js", "Express", "MongoDB", "JWT", "React", "Chart.js"],
     liveUrl: "https://workasana-frontend-pearl.vercel.app/",
     codeUrl: "https://github.com/rahulsoni070/workasana",
@@ -89,12 +69,7 @@ export const projects = [
     subtitle: "Modern E-Commerce Storefront & Dashboard",
     period: "Feb 2026 – Mar 2026",
     description:
-      "A responsive e-commerce storefront featuring curated catalog browsing, product filtering, dynamic cart, wishlist, address book, and checkout.",
-    highlights: [
-      "Real-time search, category and rating filters with multi-tier price sorting",
-      "State-managed cart, wishlist, and multi-address checkout surviving browser sessions",
-      "Dedicated landing experience, user authentication, and product catalog served via REST API",
-    ],
+      "A responsive e-commerce storefront with dynamic search, category and rating filters, multi-tier price sorting, size-aware carts, persistent wishlists, and checkout simulation.",
     tech: ["React", "Bootstrap", "Node.js", "Express", "MongoDB"],
     liveUrl: "https://major-project-sigma-snowy.vercel.app/",
     codeUrl: "https://github.com/rahulsoni070/shopeasy",
