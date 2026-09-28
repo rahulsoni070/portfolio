@@ -33,7 +33,7 @@ export default function Projects() {
                 ))}
               </ul>
 
-              <div className="mt-auto pt-4 flex flex-wrap gap-2">
+              <div className="mt-5 flex flex-wrap gap-2">
                 {p.tech.map((t) => (
                   <span
                     key={t}
@@ -44,7 +44,7 @@ export default function Projects() {
                 ))}
               </div>
 
-              <div className="mt-6 flex gap-5 pt-2">
+              <div className="mt-auto pt-6 flex gap-5 border-t border-white/5">
                 <a
                   href={p.liveUrl}
                   target="_blank"
