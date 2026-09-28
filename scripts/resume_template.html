@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Rahul Soni - Resume</title>
+<style>
+  @page {
+    size: letter;
+    margin: 0.38in 0.48in 0.38in 0.48in;
+  }
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    font-family: "Carlito", "Calibri", "Segoe UI", Arial, sans-serif;
+    color: #1a1a1a;
+    line-height: 1.28;
+    font-size: 9.15pt;
+    background: #ffffff;
+    -webkit-print-color-adjust: exact;
+  }
+  a {
+    color: #0d47a1;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  .header {
+    text-align: center;
+    margin-bottom: 6px;
+  }
+  .name {
+    font-size: 20pt;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #0f172a;
+    margin-bottom: 1px;
+  }
+  .tagline {
+    font-size: 9.8pt;
+    font-weight: 600;
+    color: #334155;
+    margin-bottom: 3px;
+  }
+  .contact-line {
+    font-size: 8.8pt;
+    color: #475569;
+    margin-bottom: 2px;
+  }
+  .contact-line a {
+    color: #1e3a8a;
+  }
+  .separator {
+    color: #94a3b8;
+    margin: 0 4px;
+  }
+  .section {
+    margin-top: 5px;
+    margin-bottom: 4px;
+  }
+  .section-title {
+    font-size: 10pt;
+    font-weight: 700;
+    color: #0f172a;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+    border-bottom: 1px solid #1e293b;
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+  }
+  .summary-text {
+    font-size: 9pt;
+    color: #334155;
+    text-align: justify;
+  }
+  .skills-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 8.9pt;
+  }
+  .skills-table td {
+    padding: 1.5px 0;
+    vertical-align: top;
+  }
+  .skills-label {
+    font-weight: 700;
+    color: #1e293b;
+    width: 115px;
+    white-space: nowrap;
+    padding-right: 8px !important;
+  }
+  .skills-val {
+    color: #334155;
+  }
+  .project-item {
+    margin-bottom: 5px;
+  }
+  .project-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1px;
+  }
+  .project-title {
+    font-size: 9.6pt;
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .project-links {
+    font-size: 8.6pt;
+    font-weight: 500;
+    color: #475569;
+  }
+  .project-tech {
+    font-size: 8.5pt;
+    font-style: italic;
+    color: #475569;
+    margin-bottom: 2px;
+  }
+  ul.project-bullets {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  ul.project-bullets li {
+    font-size: 8.8pt;
+    color: #334155;
+    position: relative;
+    padding-left: 12px;
+    margin-bottom: 1.5px;
+    text-align: justify;
+  }
+  ul.project-bullets li::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+    font-size: 8pt;
+    top: 0px;
+  }
+  .achievement-item, .education-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    font-size: 8.9pt;
+    color: #334155;
+  }
+  .achieve-bullet {
+    position: relative;
+    padding-left: 12px;
+    font-size: 8.9pt;
+    color: #334155;
+  }
+  .achieve-bullet::before {
+    content: "▸";
+    position: absolute;
+    left: 0;
+    color: #2563eb;
+    font-size: 8pt;
+    top: 0px;
+  }
+  .strong {
+    font-weight: 700;
+    color: #0f172a;
+  }
+  .date-text {
+    font-size: 8.6pt;
+    color: #475569;
+    white-space: nowrap;
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <h1 class="name">RAHUL SONI</h1>
+    <div class="tagline">Backend-Focused Full-Stack Developer · Node.js · Express · MongoDB</div>
+    <div class="contact-line">
+      <span>Jaipur, India (open to relocation)</span>
+      <span class="separator">|</span>
+      <span>+91-9024141779</span>
+      <span class="separator">|</span>
+      <a href="mailto:rahulsoni66676@gmail.com">rahulsoni66676@gmail.com</a>
+    </div>
+    <div class="contact-line">
+      <a href="https://github.com/rahulsoni070" target="_blank">github.com/rahulsoni070</a>
+      <span class="separator">|</span>
+      <a href="https://linkedin.com/in/rahulsoni0707" target="_blank">linkedin.com/in/rahulsoni0707</a>
+      <span class="separator">|</span>
+      <a href="https://rahul-soni-portfolio.vercel.app" target="_blank">rahulsoni.vercel.app</a>
+      <span class="separator">|</span>
+      <a href="https://rahulsoni070.hashnode.dev" target="_blank">rahulsoni070.hashnode.dev</a>
+    </div>
+  </div>
+
+  <!-- Summary -->
+  <div class="section">
+    <div class="section-title">Summary</div>
+    <p class="summary-text">
+      Backend-focused Computer Science student specializing in building and deploying secure, production-grade Node.js/Express REST APIs backed by MongoDB (OAuth 2.0, JWT, role-based access control, atomic Cloudinary rollbacks, and real-time Socket.IO systems). Seeking SDE / Backend Developer internship and new-grad roles.
+    </p>
+  </div>
+
+  <!-- Technical Skills -->
+  <div class="section">
+    <div class="section-title">Technical Skills</div>
+    <table class="skills-table">
+      <tr>
+        <td class="skills-label">Languages:</td>
+        <td class="skills-val">JavaScript (ES6+), TypeScript, C++, C</td>
+      </tr>
+      <tr>
+        <td class="skills-label">Backend:</td>
+        <td class="skills-val">Node.js, Express.js, REST API Architecture, JWT, Google OAuth 2.0 (Passport.js), bcrypt, RBAC, Socket.IO, Multer, Cloudinary</td>
+      </tr>
+      <tr>
+        <td class="skills-label">Databases:</td>
+        <td class="skills-val">MongoDB, Mongoose (Schema modeling, Compound indexes, Aggregation pipelines), MongoDB Atlas</td>
+      </tr>
+      <tr>
+        <td class="skills-label">Frontend:</td>
+        <td class="skills-val">React.js, Redux, React Router, Axios, Tailwind CSS, Bootstrap, HTML5, CSS3, Recharts, Chart.js</td>
+      </tr>
+      <tr>
+        <td class="skills-label">Developer Tools:</td>
+        <td class="skills-val">Git, GitHub, Postman, Vercel, Render</td>
+      </tr>
+      <tr>
+        <td class="skills-label">Core CS:</td>
+        <td class="skills-val">Data Structures & Algorithms (C++), Object-Oriented Programming (OOP), DBMS, Operating Systems, Computer Networks</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- Projects (4 Strong Projects) -->
+  <div class="section">
+    <div class="section-title">Projects</div>
+
+    <!-- Project 1: KaviosPix -->
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-title">KaviosPix — Photo Management REST API & Cloud Storage</span>
+        <span class="project-links">
+          <a href="https://kaviospix-rahul.vercel.app/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/rahulsoni070/kaviospix" target="_blank">GitHub</a> |
+          <span class="date-text">Sep 2026</span>
+        </span>
+      </div>
+      <div class="project-tech">Node.js, Express, MongoDB, Passport.js (Google OAuth 2.0), JWT, Multer, Cloudinary, React</div>
+      <ul class="project-bullets">
+        <li>Designed a 16-endpoint REST API for albums, images, tags, comments, favorites, and sharing; enforced owner vs. shared permissions via reusable middleware and scoped queries that eliminate IDOR vulnerabilities.</li>
+        <li>Architected Google OAuth 2.0 auth issuing stateless JWTs, alongside a Multer → Cloudinary upload pipeline (5MB limit, MIME checks) that rolls back the cloud upload if database persistence fails.</li>
+        <li>Engineered paginated tag search backed by 3 compound indexes; hardened API security using Helmet, CORS allowlists, and express-rate-limit (100 req/15 min).</li>
+      </ul>
+    </div>
+
+    <!-- Project 2: Anvaya CRM -->
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-title">Anvaya CRM — Lead Management REST API & Analytics Dashboard</span>
+        <span class="project-links">
+          <a href="https://anvaya-crm-frontend-bice.vercel.app/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/rahulsoni070/anvaya-crm" target="_blank">GitHub</a> |
+          <span class="date-text">Aug 2026</span>
+        </span>
+      </div>
+      <div class="project-tech">Node.js, Express, MongoDB, JWT, bcrypt, React, Recharts</div>
+      <ul class="project-bullets">
+        <li>Developed 19 REST endpoints across 6 modules (leads, agents, comments, reports) with bcrypt password hashing and 7-day JWTs (17 protected routes, 6 admin-restricted with 401/403 authorization).</li>
+        <li>Implemented a robust server-side query layer supporting 5 multi-field filters (status, priority, agent, tags, search), 8 whitelisted sort orders, and pagination with total counts.</li>
+        <li>Engineered pipeline analytics using MongoDB aggregation ($match, $group, $lookup, $project) visualized via Recharts; published technical architectural breakdown on Hashnode.</li>
+      </ul>
+    </div>
+
+    <!-- Project 3: Chatter -->
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-title">Chatter — Real-Time One-to-One Messaging Platform</span>
+        <span class="project-links">
+          <a href="https://chat-app-frontend-psi-roan.vercel.app/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/rahulsoni070/Chat-app" target="_blank">GitHub</a> |
+          <span class="date-text">Sep 2026</span>
+        </span>
+      </div>
+      <div class="project-tech">Node.js, Express, Socket.IO, MongoDB, bcrypt, React</div>
+      <ul class="project-bullets">
+        <li>Built an event-driven Socket.IO messaging engine with per-user private rooms and acknowledgement callbacks that ensure verifiable message delivery to senders.</li>
+        <li>Engineered real-time message tracking with sent → delivered → read receipts persisted in MongoDB, paired with live typing indicators synchronized over 6 client and 5 server socket events.</li>
+        <li>Created a responsive chat frontend with active user indicators, unread badges, and auto-scroll message feeds; deployed backend on Render and frontend on Vercel.</li>
+      </ul>
+    </div>
+
+    <!-- Project 4: Workasana -->
+    <div class="project-item">
+      <div class="project-header">
+        <span class="project-title">Workasana — Task & Project Management REST API</span>
+        <span class="project-links">
+          <a href="https://workasana-frontend-pearl.vercel.app/" target="_blank">Live Demo</a> |
+          <a href="https://github.com/rahulsoni070/workasana" target="_blank">GitHub</a> |
+          <span class="date-text">Aug 2026</span>
+        </span>
+      </div>
+      <div class="project-tech">Node.js, Express, MongoDB, JWT, bcrypt, React, Chart.js</div>
+      <ul class="project-bullets">
+        <li>Architected an 18-endpoint REST API (16 secured via JWT) across 5 relational Mongoose schemas (Users, Projects, Teams, Tasks, Tags) featuring automatic task ownership delegation.</li>
+        <li>Implemented multi-criteria filtering by team, owner, status, priority, and custom tags with dynamic sorting and due-date tracking.</li>
+        <li>Built sprint reporting endpoints aggregating completed tasks, pending backlogs, and team distribution, charted dynamically in React with Chart.js.</li>
+      </ul>
+    </div>
+
+  </div>
+
+  <!-- Achievements -->
+  <div class="section">
+    <div class="section-title">Achievements</div>
+    <div class="achieve-bullet">
+      <span class="strong">Smart India Hackathon (SIH) 2024:</span> Selected and participated in SIH 2024, a prestigious national-level innovation hackathon organized by the Ministry of Education, Government of India.
+    </div>
+  </div>
+
+  <!-- Education (at the bottom, after Achievements) -->
+  <div class="section">
+    <div class="section-title">Education</div>
+    <div class="education-item">
+      <div>
+        <span class="strong">B.Tech in Computer Science & Engineering</span> — JECRC University, Jaipur
+      </div>
+      <span class="date-text">2023 – Jun 2027 (Expected)</span>
+    </div>
+  </div>
+
+</body>
+</html>
