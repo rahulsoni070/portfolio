@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
+import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope, FaHashnode } from "react-icons/fa6";
 
 export const personal = {
   name: "Rahul Soni",
@@ -13,6 +13,7 @@ export const personal = {
 export const socials = [
   { name: "GitHub", url: "https://github.com/rahulsoni070", icon: FaGithub },
   { name: "LinkedIn", url: "https://linkedin.com/in/rahulsoni0707", icon: FaLinkedin },
+  { name: "Hashnode", url: "https://rahulsoni070.hashnode.dev", icon: FaHashnode },
   { name: "Twitter", url: "https://x.com/Rahulso43411291", icon: FaXTwitter },
   { name: "Email", url: "mailto:rahulsoni66676@gmail.com", icon: FaEnvelope },
 ];
@@ -35,16 +36,6 @@ export const projects = [
     codeUrl: "https://github.com/rahulsoni070/kaviospix",
   },
   {
-    title: "Anvaya CRM",
-    subtitle: "Lead Management REST API & Analytics Dashboard",
-    period: "Aug 2026",
-    description:
-      "A full-featured sales CRM with 19 REST endpoints and JWT authentication, enabling sales teams to capture leads, assign agents, track status pipelines, and visualize conversion reports with Recharts.",
-    tech: ["Node.js", "Express", "MongoDB", "JWT", "React", "Recharts"],
-    liveUrl: "https://anvaya-crm-frontend-bice.vercel.app/",
-    codeUrl: "https://github.com/rahulsoni070/anvaya-crm",
-  },
-  {
     title: "Chatter",
     subtitle: "Real-Time One-to-One Messaging Platform",
     period: "Sep 2026",
@@ -53,6 +44,16 @@ export const projects = [
     tech: ["Node.js", "Express", "Socket.IO", "MongoDB", "React"],
     liveUrl: "https://chat-app-frontend-psi-roan.vercel.app/",
     codeUrl: "https://github.com/rahulsoni070/Chat-app",
+  },
+  {
+    title: "Anvaya CRM",
+    subtitle: "Lead Management REST API & Analytics Dashboard",
+    period: "Aug 2026",
+    description:
+      "A full-featured sales CRM with 19 REST endpoints and JWT authentication, enabling sales teams to capture leads, assign agents, track status pipelines, and visualize conversion reports with Recharts.",
+    tech: ["Node.js", "Express", "MongoDB", "JWT", "React", "Recharts"],
+    liveUrl: "https://anvaya-crm-frontend-bice.vercel.app/",
+    codeUrl: "https://github.com/rahulsoni070/anvaya-crm",
   },
   {
     title: "Workasana",
