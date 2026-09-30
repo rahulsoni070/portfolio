@@ -46,6 +46,8 @@ This creates a `dist/` folder you can deploy.
 
 ## ☁️ Deploy (free) on Vercel
 
+**Live Portfolio**: [https://rahulsoni.vercel.app/](https://rahulsoni.vercel.app/)
+
 1. Push this folder to a new GitHub repo called `portfolio`.
 2. Go to vercel.com → New Project → import the repo.
 3. Framework preset: **Vite**. Click Deploy. Done! 🎉

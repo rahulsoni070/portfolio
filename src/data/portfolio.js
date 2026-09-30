@@ -6,6 +6,7 @@ export const personal = {
   tagline:
     "I build secure REST APIs with Node.js, Express and MongoDB, add AI features with LLM APIs, and ship the React frontend too.",
   location: "Jaipur, India · Open to relocation",
+  portfolioUrl: "https://rahulsoni.vercel.app/",
   resumeUrl: "/Rahul_Soni_Resume.pdf",
 };
 
